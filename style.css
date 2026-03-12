@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    height: 100vh;
+   
 }
 .header{
     background-color: #222222;
@@ -10,7 +10,7 @@ body{
     display:flex;
     justify-content: space-between;
 }
-i{
+.header i{
     font-size: 50px;
    
 }
@@ -32,13 +32,19 @@ i{
     color: white;
 }
 #header-logo{
+    display: flex;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     order:-1;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 80px;
     font-size: 1.3em;
     font-weight: bold;
+}
+#header-logo p{
+    margin-left: 20px;
+    font-size: 1.2em;
 }
 #main-head{
     margin-top: 50px;
@@ -47,8 +53,7 @@ i{
     margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
-    
-    
+      
 }
 #title{
     width: 50%;
@@ -72,7 +77,7 @@ i{
 #button1{
     height: 55px;
     width: 150px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left:2px;
     border-radius: 5px;
     background-color: #c59c51 ;
@@ -88,10 +93,10 @@ i{
     font-family: Arial, Helvetica, sans-serif;
 }
 #button1:hover{
-    background-color: #ffffff;
+    background-color: #6d6d6d;
 }
 #button1:hover a{
-    
+    color: white;
 }
 #main-img {
     display: flex;
@@ -117,24 +122,25 @@ i{
 }
 #box-container{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
+    
     
 }
 .box{
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
-    width:300px;
-    margin: 10px;
+    width:250px;
+    margin: 30px;
 }
 .box-img img{
     border: 5px #422716 solid;
     border-radius: 5px;
-    width: 250px;
+    width: 100%;
     height: auto;
-    margin: 0px 20px 5px 20px;
+    margin: 0px 20px 5px 0px;
     padding: 0px;
 }
 .box-text h2{
@@ -146,16 +152,120 @@ i{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-
-.quote{
-    height: 20vh;
-    background-color: #c4c4c5;   
+.quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c4c4c5;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
+.quote{
+    width: 65%;
+    padding-bottom: 50px;
+    margin-right: 0px;
+    border-bottom: 1.5px solid #422716;
+}
+.quotes .qtext{
+    text-align: left;
+    font-size: 2em;
+    color: #555555;
+    font-family: "Instrument Serif";
+    font-style: italic;
+    padding: 0px;
+    margin-bottom: 0px; 
+}
+.qname{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:  "Playfair Display",Arial, Helvetica, sans-serif;
+    color: black;
+    margin:0px;
+    text-align: right;
+    padding-right:50px;  
+}
+#lastquote{
+    border:none;
+    
+}
+
 .call{
-    height: 20vh;
-       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.call-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%
+}
+#button2{
+    height: 55px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #311d10 ;
+}
+#button2 a{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #311d10;
+    text-decoration:none ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#button2:hover{
+    background-color: #311d10;
+}
+#button2:hover a{
+    color: #c59c51;
+}
+.call-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c59c51;
+    border-radius: 5px;
+    width: 70%;
+    height:auto;
+    margin: 30px;
+}
+.call-text2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+   
+    
+}
+#call-text{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width:80%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.call-box h2{
+    color: #311d10;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.call-box p{
+    color: #311d10;
+    padding: 0px;
+    margin: 0px;
 }
 .footer{
-    height: 10vh;
+    display: flex;
+    justify-content: space-between;
     background-color: #222222;   
+}
+.footer p{
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
