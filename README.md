@@ -1,10 +1,10 @@
 # Chess Landing Page
 
-A chess-themed landing page built as part of [The Odin Project](https://www.theodinproject.com/) Foundations curriculum.
+A chess-themed landing page built to practice HTML and CSS fundamentals.
 
 ## Live Preview
 
-[View on GitHub Pages](https://salem-qahtani.github.io/Chess/)
+[View on GitHub Pages](https://salem-qahtani.github.io/Chess-page/)
 
 ## About
 
@@ -28,8 +28,9 @@ This project is a static landing page designed to introduce users to the game of
 
 ## What I Learned
 
+- Built the entire page from scratch without templates or frameworks
 - Flexbox layout and alignment
 - Responsive sizing with percentages
 - CSS hover effects
 - Linking external fonts and icon libraries
-- Git version control and pushing to GitHub
+- Git version control and deploying with GitHub Pages
